@@ -1,1 +1,1 @@
-https://github.com/sizak-ai/PR-2.git
+https://github.com/sizak-ai/posmotri-v-okno-fd
