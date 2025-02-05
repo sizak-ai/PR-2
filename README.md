@@ -1,1 +1,1 @@
-https://github.com/sizak-ai/PR-2
+https://github.com/sizak-ai/PR-2.git
