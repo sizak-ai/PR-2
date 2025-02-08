@@ -18,6 +18,7 @@ html {
   background-color: #1b1919;
   display: flex;
   align-items: center;
+  padding: 192px 0px 0px 0px;
 }
 
 h1,
@@ -54,19 +55,18 @@ ol {
 
 .content {
   display: grid;
-  width: 100%;
+  width: 1140px;
   gap: 30px;
   grid-template-areas: "result content__details";
   justify-items: start;
   align-items: end;
   justify-content: start;
-  padding: 133px 29px 133px 30px;
 }
 
 .result {
   display: grid;
   grid-area: result;
-  padding: 211px 0px 17px 0px;
+  padding: 211px 0px 211px 30px;
 }
 
 .content__details {
@@ -74,14 +74,15 @@ ol {
   width: 100%;
   height: 100%;
   grid-area: content__details;
-  padding: 135px 0px 3px 0px;
+  padding: 136px 0px 145px 0px;
+
 }
 
 .search-form {
   display: flex;
   width: 711px;
   height: 100%;
-  padding: 0px 0px 60px 0px;
+  padding: 0px 0px 85px 0px;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-end;
@@ -89,10 +90,11 @@ ol {
 
 .content__list-container {
   display: grid;
-  max-width: 400px;
-  max-height: 411px;
+  width: 400px;
+  max-height: 298px;
   overflow: auto;
   position: relative;
+  margin-bottom: 133px;
 }
 
 .result__video-container {
@@ -110,7 +112,6 @@ ol {
 .content__list {
   display: grid;
   gap: 32px;
-  padding: 16px 0px 0px 0px;
 }
 
 .content__list-item {
@@ -215,7 +216,6 @@ ol {
 .search-form__label {
   display: flex;
   gap: 5px;
-  padding: 0px 0px 27px 0px;
 }
 
 
@@ -294,7 +294,7 @@ ol {
   height: 34px;
   align-items: center;
   justify-content: center;
-  margin: 0px 0px 33px 0px;
+  margin: 0px 0px 6px 0px;
 
 }
 
@@ -325,7 +325,7 @@ ol {
 
 
 .content__card-link_current {
-  background-color: #545050;
+  outline: none;
 }
 
 
@@ -335,7 +335,7 @@ ol {
 }
 
 .content__card-link:active {
-  outline: none;
+  background-color: #545050
 }
 
 .content__card-link:focus-visible {
