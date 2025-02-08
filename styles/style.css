@@ -66,7 +66,7 @@ ol {
 .result {
   display: grid;
   grid-area: result;
-  padding: 211px 0px 0px 0px;
+  padding: 211px 0px 17px 0px;
 }
 
 .content__details {
@@ -110,7 +110,7 @@ ol {
 .content__list {
   display: grid;
   gap: 32px;
-  padding: 23px 0px 0px 0px;
+  padding: 16px 0px 0px 0px;
 }
 
 .content__list-item {
