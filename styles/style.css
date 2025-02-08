@@ -54,11 +54,13 @@ ol {
 
 .content {
   display: grid;
+  width: 100%;
   gap: 30px;
   grid-template-areas: "result content__details";
+  justify-items: start;
   align-items: end;
-  justify-items: end;
-  padding: 0px 0px 0px 30px;
+  justify-content: start;
+  padding: 133px 29px 133px 30px;
 }
 
 .result {
